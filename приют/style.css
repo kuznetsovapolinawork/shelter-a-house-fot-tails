@@ -1,0 +1,108 @@
+body{
+    background-color: beige;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(109, 67, 18);
+    color: aliceblue;
+    padding: 15px 50px;
+}
+.logo{
+    font-size: 22px;
+    font-weight: bold;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+}
+.btn{
+    background-color: rgb(138, 89, 33);
+    color: aliceblue;
+    padding: 8px 14px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.sidebar{
+    display: inline-block;
+    width: 23%;
+    height: 100%;
+    background-color:rgb(109, 67, 18) ;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 25px;
+    color: aliceblue;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    font-size: 16px;
+    vertical-align: top;
+}
+.sidebar h2{
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+}
+.date{
+    color: rgba(255, 255, 255, 0.493);
+}
+.main{
+    display: inline-block;
+    width: 67%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow:0 4px 15px rgba(0, 0, 0, 0.08);
+    font-size: 16px;
+    vertical-align: top;
+} 
+.pet{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+.petcard{
+    flex: 1;
+    background-color: rgba(228, 167, 98, 0.147);
+    border-radius: 10px;
+    padding: 25px;
+}
+.petcard img{
+    height: 220px;
+}
+.pettext h3{
+margin-bottom: 15px;
+}
+.petlink{
+     background-color: rgb(138, 89, 33);
+    color: aliceblue;
+    padding: 8px 14px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.features{
+    background-color: rgb(138, 89, 33);
+    color: aliceblue;
+    padding: 10px 150px;
+    margin: 10px;
+    border-radius: 40px;
+font-size: 18px;
+}
+.contacts{
+    background-color: rgba(228, 167, 98, 0.147);
+    padding: 15px 20px;
+}
